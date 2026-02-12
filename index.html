@@ -5,105 +5,19 @@
     <title>NOIR - Minimal Streetwear</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background-color: #ffffff;
-            color: #111;
-        }
-
-        header {
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        header h1 {
-            font-size: 36px;
-            letter-spacing: 4px;
-        }
-
-        header p {
-            margin-top: 10px;
-            color: #555;
-        }
-
-        .hero {
-            height: 60vh;
-            background: url('https://images.unsplash.com/photo-1520975918318-7a1c1e6c4f6b') center/cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-        }
-
-        .hero h2 {
-            background: rgba(0,0,0,0.5);
-            padding: 20px 40px;
-            font-size: 28px;
-        }
-
-        .products {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            padding: 60px 20px;
-            flex-wrap: wrap;
-        }
-
-        .product-card {
-            width: 300px;
-            border: 1px solid #eee;
-            padding: 20px;
-            text-align: center;
-            transition: 0.3s;
-        }
-
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        }
-
-        .product-card img {
-            width: 100%;
-        }
-
-        .product-card h3 {
-            margin: 15px 0;
-        }
-
-        .price {
-            color: #555;
-            margin-bottom: 10px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: black;
-            color: white;
-            text-decoration: none;
-            margin-top: 10px;
-        }
-
-        .about {
-            padding: 60px 20px;
-            text-align: center;
-            background: #f7f7f7;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-            color: #777;
-        }
-
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 40px; }
+        header { text-align: center; margin-bottom: 50px; }
+        header h1 { font-size: 36px; letter-spacing: 4px; }
+        header p { color: #555; margin-top: 10px; }
+        .products { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+        .product-card { width: 300px; border: 1px solid #eee; padding: 20px; text-align: center; transition: 0.3s; }
+        .product-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        .product-card img { width: 100%; }
+        .product-card h3 { margin: 15px 0; }
+        .price { color: #555; margin-bottom: 10px; }
+        .btn { display: inline-block; padding: 10px 20px; background: black; color: white; text-decoration: none; margin-top: 10px; }
+        .about { padding: 60px 20px; text-align: center; background: #f7f7f7; margin-top: 50px; }
+        footer { text-align: center; padding: 20px; font-size: 14px; color: #777; margin-top: 40px; }
     </style>
 </head>
 <body>
@@ -113,32 +27,25 @@
     <p>Minimal Streetwear</p>
 </header>
 
-<section class="hero">
-    <h2>ESSENTIALS COLLECTION</h2>
-</section>
-
 <section class="products">
     <div class="product-card">
-        <img src="264cf700-fcf5-43d8-bbfe-ccb547e135cf.jpg" alt="Black Hoodie">
-        <h3>Black Essential t-shirt</h3>
-        <p class="price">$29</p>
-        <a href="264cf700-fcf5-43d8-bbfe-ccb547e135cf.jpg" class="btn">buy now</a>
+        <img src="hoodie1.jpg" alt="Black Hoodie">
+        <h3>Black Essential Hoodie</h3>
+        <p class="price">$79</p>
+        <a href="hoodie.html" class="btn">Buy Now</a>
     </div>
 
     <div class="product-card">
-        <img src="816b26d4-b5fc-42be-9790-5c582067d555.jpg" alt="White T-Shirt">
-        <h3>black oversized T-Shirt</h3>
+        <img src="tshirt1.jpg" alt="White T-Shirt">
+        <h3>White Core T-Shirt</h3>
         <p class="price">$39</p>
-        <a href="#" class="btn">buy now</a>
+        <a href="tshirt.html" class="btn">Buy Now</a>
     </div>
 </section>
 
 <section class="about">
     <h2>About NOIR</h2>
-    <p>
-        NOIR is a minimalist streetwear brand focused on timeless essentials.
-        Designed for simplicity. Built for everyday wear.
-    </p>
+    <p>A modern streetwear brand built around clean silhouettes and bold simplicity. Created for everyday confidence and effortless style.</p>
 </section>
 
 <footer>
@@ -148,3 +55,5 @@
 </body>
 </html>
 
+  
+    
